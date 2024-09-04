@@ -7,6 +7,7 @@ import Nabvar from "./components/Nabvar";
 import Popular from "./components/Popular";
 import Student from "./components/Student";
 import Study from "./components/Study";
+import Speack from "./components/Speack";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
      <Education/>
      <Glance/>
      <Student/>
+     <Speack/>
      </div>
     </>
   );
