@@ -27,13 +27,12 @@ const Speack = () => {
         <img src={fram} alt="" />
       </div>
       <div className="flex mt-96 justify-center">
-      <div className="bg-[#e6c59e] px-2 mx-2 rounded-full">
-      <FaArrowLeftLong className=" text-[#1E1E1E]"/>
-      </div>
-      <div className="bg-[#F6941E] px-2 rounded-full">
-      <FaArrowRightLong className=" text-[#FFFFFF] " />
-      </div>
-
+        <div className="bg-[#e6c59e] px-2 mx-2 rounded-full">
+          <FaArrowLeftLong className=" text-[#1E1E1E]" />
+        </div>
+        <div className="bg-[#F6941E] px-2 rounded-full">
+          <FaArrowRightLong className=" text-[#FFFFFF] " />
+        </div>
       </div>
     </div>
   );
