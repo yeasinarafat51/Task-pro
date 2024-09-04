@@ -8,6 +8,7 @@ import Popular from "./components/Popular";
 import Student from "./components/Student";
 import Study from "./components/Study";
 import Speack from "./components/Speack";
+import Faq from "./components/Faq";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
      <Glance/>
      <Student/>
      <Speack/>
+     <Faq/>
      </div>
     </>
   );

@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-comment-textnodes */
+import { FaArrowLeftLong } from "react-icons/fa6";
+import { FaArrowRightLong } from "react-icons/fa6";
 import natur from "../assets/natur.png";
 import fram from "../assets/Frame 144.png";
 
@@ -23,6 +25,15 @@ const Speack = () => {
       </div>
       <div className="flex justify-center absolute -mt-36 mx-16">
         <img src={fram} alt="" />
+      </div>
+      <div className="flex mt-96 justify-center">
+      <div className="bg-[#e6c59e] px-2 mx-2 rounded-full">
+      <FaArrowLeftLong className=" text-[#1E1E1E]"/>
+      </div>
+      <div className="bg-[#F6941E] px-2 rounded-full">
+      <FaArrowRightLong className=" text-[#FFFFFF] " />
+      </div>
+
       </div>
     </div>
   );
