@@ -1,12 +1,12 @@
 import logo3 from "../assets/Logo4.png";
-import hero from "../assets/Hero section.png";
+
 import { FaAngleDown } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Nav = () => {
   return (
-    <div>
-      <nav className="bg-[#0a0a0a] py-8">
+    <div >
+      <nav className="bg-[#0a0a0a] py-8 px-20">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -15,10 +15,10 @@ const Nav = () => {
             <div className="flex  items-center justify-center ">
               <img className="w-fit" src={logo3} alt="" />
               <div className="hidden sm:ml-6 sm:block">
-                <div className="flex space-x-4">
+                <div className="flex space-x-12">
                   <a
                     href="#"
-                    className="rounded-md  px-3 py-2 text-sm font-medium text-black "
+                    className="rounded-md  pl-36 py-2 text-sm font-medium text-[#D9D9D9] "
                     aria-current="page"
                   >
                     Home
@@ -52,12 +52,15 @@ const Nav = () => {
                   >
                     Reviews
                   </a>
+                  <div className=" rounded-full flex items-center bg-[#D2F153] px-2">
                   <a
                     href="#"
-                    className="rounded-md px-3 py-2 text-sm font-medium text-[#D9D9D9] hover:bg-gray-700 hover:text-white"
+                    className=" px-3 py-2 text-sm font-medium text-[#131212]  "
                   >
-                    Contact us{" "}
+                    Contact us
                   </a>
+                  <FaArrowRightLong />
+                  </div>
                 </div>
               </div>
             </div>
