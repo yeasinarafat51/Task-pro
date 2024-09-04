@@ -9,6 +9,7 @@ import Student from "./components/Student";
 import Study from "./components/Study";
 import Speack from "./components/Speack";
 import Faq from "./components/Faq";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
      <Student/>
      <Speack/>
      <Faq/>
+     <Blog/>
      </div>
     </>
   );
