@@ -5,6 +5,7 @@ import Education from "./components/Education";
 import Glance from "./components/Glance";
 import Nabvar from "./components/Nabvar";
 import Popular from "./components/Popular";
+import Student from "./components/Student";
 import Study from "./components/Study";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
      <Popular/>
      <Education/>
      <Glance/>
+     <Student/>
      </div>
     </>
   );
