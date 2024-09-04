@@ -1,6 +1,7 @@
 import Application from "./components/Application";
 import Banner from "./components/Banner";
 import Nabvar from "./components/Nabvar";
+import Study from "./components/Study";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
      <Nabvar/>
      <Banner/>
      <Application/>
+     <Study/>
      </div>
     </>
   );
