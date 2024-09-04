@@ -29,7 +29,7 @@ const Study = () => {
                 <div className='flex items-center mb-2'>
                 <FaStar className='text-[#F6941E] ' /> <p className='px-2 text-[#1E1E1E]'>Merit Based & Need Based Scholarships</p>
                 </div>
-                <button className='flex items-center text-[#FFFFFF] bg-[#F6941E] p-2 my-8'>See More  <FaArrowRightLong className='mx-1' /></button>
+                <button className='flex items-center text-[#FFFFFF] font-bold   bg-[#F6941E] p-2 my-8'>See More  <FaArrowRightLong className='mx-1' /></button>
             </div>
         </div>
     );
