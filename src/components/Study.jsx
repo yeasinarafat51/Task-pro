@@ -1,6 +1,7 @@
 import img1 from "../assets/image 15.png";
 import { FaStar } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Study = () => {
   return (
@@ -49,9 +50,12 @@ const Study = () => {
             Merit Based & Need Based Scholarships
           </p>
         </div>
-        <button className="flex items-center text-[#FFFFFF] font-bold   bg-[#F6941E] p-2 my-8">
-          See More <FaArrowRightLong className="mx-1" />
-        </button>
+        <Link to="/usa">
+          {" "}
+          <button className="flex items-center text-[#FFFFFF] font-bold   bg-[#F6941E] p-2 my-8">
+            See More <FaArrowRightLong className="mx-1" />
+          </button>
+        </Link>
       </div>
     </div>
   );

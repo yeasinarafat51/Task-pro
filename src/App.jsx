@@ -1,37 +1,12 @@
-import Application from "./components/Application";
-import Banner from "./components/Banner";
-import Career from "./components/Career";
-import Education from "./components/Education";
-import Glance from "./components/Glance";
-import Nabvar from "./components/Nabvar";
-import Popular from "./components/Popular";
-import Student from "./components/Student";
-import Study from "./components/Study";
-import Speack from "./components/Speack";
-import Faq from "./components/Faq";
-import Blog from "./components/Blog";
-import Footer from "./components/Footer";
+import { RouterProvider } from "react-router-dom";
+import router from "./Routes/Router";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <div className="mx-4">
-        <Nabvar />
-        <Banner />
-        <Application />
-        <Study />
-        <Career />
-        <Popular />
-        <Education />
-        <Glance />
-        <Student />
-        <Speack />
-        <Faq />
-        <Blog />
-        <Footer />
-      </div>
-    </>
+    <div className="max-w-[1440px] mx-auto">
+      <RouterProvider router={router}></RouterProvider>
+    </div>
   );
-}
+};
 
 export default App;
