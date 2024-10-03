@@ -23,7 +23,7 @@ const UseReducer = () => {
     return (
         <div className="m-12">
             <p>Count:{state.count}</p>
-            <button className="btn btn-primary mx-4" onClick={Increment}>Increment</button>
+            <button className="btn btn-primary mx-4 px-2" onClick={Increment}>Increment</button>
             <button  className="btn btn-primary mx-4" onClick={Decrement}>Decrement</button>
 
             
