@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 
 const Pactrice = () => {
@@ -37,6 +38,7 @@ const Pactrice = () => {
               
             </form>
             <h1>{sub.email}</h1>
+            <Link to='https://youtu.be/PSeI26U7F4M?si=xBDbRznNv70Q8cOL' >link</Link>
         </div>
     );
 };

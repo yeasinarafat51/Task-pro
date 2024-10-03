@@ -12,6 +12,7 @@
 // import Blog from "./components/Blog";
 // import Nabvar from "./components/Nabvar";
 import Pactrice from "./components/pactrice/Pactrice"
+import UseReducer from "./components/pactrice/UseReducer";
 // import Pactrice1 from "./components/pactrice/Pactrice1";
 
 function Home() {
@@ -19,7 +20,8 @@ function Home() {
     <>
       <div className="mx-4">
         {/* <Pactrice1/> */}
-        <Pactrice/>
+        {/* <Pactrice/> */}
+      <UseReducer/>
         
         {/* <Nabvar />
         <Banner />
